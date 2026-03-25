@@ -27,27 +27,38 @@ The dataset used in this project is the handwritten digits dataset provided by s
 
 ## Project Structure
 - `Boosting.ipynb` – main notebook with implementation and analysis  
-- `figures/` – saved output images (optional)  
+- `figures/` – saved output images  
 - `README.md` – project description  
 
 ## Requirements
+Python 3.8+
 Install the following libraries:
-
 - numpy  
 - pandas  
-- matplotlib  
-- seaborn  
+- matplotlib    
 - scikit-learn  
 
 ## How to Run
 1. Clone the repository:
-  git clone https://github.com/Lojana96/boosting-tutorial-digits-classification
-  
-3. Install dependencies:
-   
-4. Open Jupyter Notebook:
-   
-5. Run `Boosting.ipynb`
+   git clone https://github.com/Lojana96/boosting-tutorial-digits-classification  
+2. Install dependencies:
+   pip install numpy pandas matplotlib scikit-learn
+3. Open Jupyter Notebook:
+4. Then open:
+     Boosting.ipynb
+5. Run All Cells
+   Click “Run All” in Jupyter
+   The notebook will:
+   Load the dataset
+   Train models (AdaBoost & Gradient Boosting)
+   Generate evaluation metrics
+   Display plots
+## Outputs
+The notebook will produce:
+  Model performance comparison
+  Accuracy scores
+  Confusion matrices
+  Training vs testing performance plots
 
 ## Reproducibility
 The dataset is loaded directly from scikit-learn, and all results can be reproduced by running the notebook from top to bottom.
