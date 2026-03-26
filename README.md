@@ -51,7 +51,7 @@ Install the following libraries:
 5. Run All Cells
    - Click “Run All” in Jupyter
    The notebook will:
-   - oad the dataset
+   - Load the dataset
    - Train models (AdaBoost & Gradient Boosting)
    - Generate evaluation metrics
    - Display plots
