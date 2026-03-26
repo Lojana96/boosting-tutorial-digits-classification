@@ -29,7 +29,8 @@ The dataset used in this project is the handwritten digits dataset provided by s
 - `Boosting.ipynb` - main notebook with implementation and analysis  
 - `figures/` - saved output images  
 - `research_papers/` - contains research papers used for this project  
-- `README.md` - project description   
+- `AdaBoost_vs_Gradient_Boosting.pdf` - final project report  
+- `README.md` - project description  
 
 ## Requirements
 Python 3.8+
