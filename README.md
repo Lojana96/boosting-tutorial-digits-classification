@@ -36,7 +36,8 @@ Install the following libraries:
 - numpy  
 - pandas  
 - matplotlib    
-- scikit-learn  
+- scikit-learn
+- seaborn  
 
 ## How to Run
 1. Clone the repository:
