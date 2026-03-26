@@ -26,9 +26,10 @@ The dataset used in this project is the handwritten digits dataset provided by s
 - Increasing the number of estimators improves performance, with Gradient Boosting showing more stable behaviour  
 
 ## Project Structure
-- `Boosting.ipynb` – main notebook with implementation and analysis  
-- `figures/` – saved output images  
-- `README.md` – project description  
+- `Boosting.ipynb` - main notebook with implementation and analysis  
+- `figures/` - saved output images  
+- `research_papers/` - contains research papers used for this project  
+- `README.md` - project description   
 
 ## Requirements
 Python 3.8+
@@ -48,12 +49,12 @@ Install the following libraries:
 4. Then open:
      Boosting.ipynb
 5. Run All Cells
-   Click “Run All” in Jupyter
+   - Click “Run All” in Jupyter
    The notebook will:
-   Load the dataset
-   Train models (AdaBoost & Gradient Boosting)
-   Generate evaluation metrics
-   Display plots
+   - oad the dataset
+   - Train models (AdaBoost & Gradient Boosting)
+   - Generate evaluation metrics
+   - Display plots
 ## Outputs
 The notebook will produce:
   Model performance comparison
@@ -62,7 +63,7 @@ The notebook will produce:
   Training vs testing performance plots
 
 ## Reproducibility
-The dataset is loaded directly from scikit-learn, and all results can be reproduced by running the notebook from top to bottom.
+The dataset is loaded directly from the Scikit-learn library. All results presented in this project can be reproduced by executing the notebook sequentially from top to bottom without any additional preprocessing.
 
 ## Author
 Lojana Jegatheeswaran  
